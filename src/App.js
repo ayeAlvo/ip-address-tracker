@@ -26,11 +26,12 @@ function App() {
 
     return (
         <div className='container'>
+            <h1 className='title'>Address Tracker IP</h1>
             <Search
                 coordinates={[data?.latitude, data?.longitude]}
                 dataMine={data}
             />
-            <h3 className='made_by'>Made with ♡</h3>
+            <h3 className='made_by footer'>Made with ♡ by ayeAlvo</h3>
         </div>
     );
 }

@@ -36,25 +36,14 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 1rem;
+    margin-top: 10px;
+    margin-bottom: 31px;
 }
-
-/* @media (min-width: 40rem) {
-    .cards_item {
-        width: 50%;
-    }
-} */
-
-/* @media (min-width: 56rem) {
-  .cards_item {
-    width: 33.3333%;
-  }
-} */
 
 .card {
     background-color: white;
     border-radius: 0.25rem;
-    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 8px 40px #ff7c7c, 0 0 0 6px #ffffffeb;
     display: inline-flex;
     overflow: hidden;
     margin: 0 auto;
@@ -78,8 +67,6 @@ img {
 .card_text {
     color: #ffffff;
     font-size: 0.875rem;
-    /* line-height: 1.5;
-    margin-bottom: 1.25rem; */
     font-weight: 400;
 }
 

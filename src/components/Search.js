@@ -52,7 +52,9 @@ function Search({ coordinates, dataMine }) {
                 </form>
             </div>
             <div>
-                <p className='text-ip'>Tu IP actual es {dataMine.ip}</p>
+                <p className='text-ip'>
+                    Your current IP address is {dataMine.ip}
+                </p>
             </div>
             {searchCoordinates.length > 0 && (
                 <>

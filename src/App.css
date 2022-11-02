@@ -10,7 +10,7 @@ body {
 
 body {
     margin: 0;
-    background-color: #ffd8d8;
+    background-color: #ffc39e48;
 }
 
 .container {
@@ -22,6 +22,19 @@ body {
     margin: 0 auto;
     width: 90vw;
     height: 65vh;
+    border-radius: 3px;
+    box-shadow: 0 8px 40px #ff7c7c8c, 0 0 0 4px #ffffffeb;
+}
+
+.title {
+    color: rgba(68, 68, 68, 0.685);
+    text-align: center;
+}
+
+.footer {
+    background-color: rgba(68, 68, 68, 0.685);
+    color: #fff;
+    width: 100vw;
 }
 
 .made_by {

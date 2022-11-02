@@ -23,17 +23,15 @@ button {
     width: 782px;
     padding: 30px;
     margin: 6px auto 0 auto;
-    /* background-color: #ef8d9c; */
     background: linear-gradient(to bottom left, #ef8d9c 40%, #ffc39e 100%);
     border-radius: 8px;
-    box-shadow: 0 10px 40px #ff7c7c, 0 0 0 20px #ffffffeb;
+    box-shadow: 0 8px 40px #ff7c7c, 0 0 0 11px #ffffffeb;
     transform: scale(0.6);
 }
 
 @media (max-width: 675px) {
     #cover {
         width: 100%;
-        /* background-color: #8d97ef; */
         background: linear-gradient(to bottom left, #ef8d9c 40%, #8d97ef 100%);
     }
 }
@@ -68,10 +66,10 @@ button {
 
 #s-circle {
     position: relative;
-    top: -8px;
-    left: 0;
-    width: 43px;
-    height: 43px;
+    top: -5px;
+    left: 15px;
+    width: 57px;
+    height: 57px;
     margin-top: 0;
     border-width: 15px;
     border: 15px solid #fff;
@@ -141,11 +139,26 @@ button span:after {
 }
 
 .text-ip {
-    color: #ffffff;
+    color: rgba(68, 68, 68, 0.685);
     font-size: 2rem;
     line-height: 1.5;
-    margin-bottom: 0.25rem;
-    font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 25px;
+    font-weight: 600;
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 768px) {
+    input[type='text'] {
+        font-size: 36px;
+    }
+
+    .text-ip {
+        font-size: 18px;
+    }
+
+    #cover {
+        padding: 16px;
+    }
 }
