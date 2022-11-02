@@ -12,7 +12,6 @@ function Search({ coordinates, dataMine }) {
             .then(function (response) {
                 response.json().then((jsonData) => {
                     setData(jsonData);
-                    console.log(data);
                     setSearchCoordinates([
                         jsonData.latitude,
                         jsonData.longitude,

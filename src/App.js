@@ -14,15 +14,12 @@ function App() {
             .then(function (response) {
                 response.json().then((jsonData) => {
                     setData(jsonData);
-                    console.log(jsonData);
                 });
             })
             .catch(function (error) {
                 console.log(error);
             });
     };
-
-    console.log(data);
 
     return (
         <div className='container'>

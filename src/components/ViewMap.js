@@ -4,8 +4,6 @@ import 'leaflet/dist/leaflet.css';
 import { IconLocation } from './IconLocation';
 
 function ViewMap({ coordinates }) {
-    console.log(coordinates);
-
     if (coordinates[0] === undefined || coordinates[1] === undefined)
         return 'cargando...';
 
